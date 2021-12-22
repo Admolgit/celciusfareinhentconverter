@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  background: linear-gradient(blue, white);
+  padding-bottom: 0.5rem;
+  font-size: 18px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.navbar ul li a:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 14px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+  padding: 0.5rem 1rem;
+  color: #ccc;
+  border: none;
+  border-radius: 5px;
+  background: red;
+}
+
+input[type="submit"]:hover {
+  background: rgb(137, 7, 7);
+  cursor: pointer;
+  transition: 5s;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.main {
+  padding-top: 2rem;
+}
+
+.main .result {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.result,
+.results {
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    width: 400px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 500px;
+    margin: auto;
+  }
+}
